@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelectionPageActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/coubus" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/aclonica"
+            android:text="Student's View"
+            android:textAlignment="center"
+            android:textColor="#28A9ED"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/dbutton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#088DF3"
+            android:padding="10dp"
+            android:text="নীল পদ্ম"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/dbutton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="কাঁশফুল"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/dbutton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#FA3C3C"
+            android:padding="10dp"
+            android:text="লালবাস"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/slogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:background="#2B2929"
+            android:gravity="center_horizontal|center_vertical"
+            android:includeFontPadding="false"
+            android:padding="10dp"
+            android:text="signout"
+            android:textColor="#F8F4F4"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
